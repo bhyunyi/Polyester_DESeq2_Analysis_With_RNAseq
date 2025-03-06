@@ -1,19 +1,19 @@
 # Installs Polyester if it is not already installed
 if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager", lib = "/scratch/by2372/R/libraries")
-BiocManager::install("polyester", lib = "/scratch/by2372/R/libraries")
+  install.packages("BiocManager", lib = "/path/R/libraries")
+BiocManager::install("polyester", lib = "/path/R/libraries")
 
 # Installs Biostrings if it is not already installed
 if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager", lib = "/scratch/by2372/R/libraries")
-BiocManager::install("Biostrings", lib = "/scratch/by2372/R/libraries")
+  install.packages("BiocManager", lib = "/path/R/libraries")
+BiocManager::install("Biostrings", lib = "/path/R/libraries")
 
 # Imports necessary libraries
-library(polyester, lib.loc = "/scratch/by2372/R/libraries")
+library(polyester, lib.loc = "/path/R/libraries")
 library(Biostrings)
 
 # sets the working directory to output files into
-setwd("/scratch/by2372/Deseq2_analysis/Polyester_Test/")
+setwd("/path/Chr22/")
 
 # creates a small fasta file with 50 transcripts 
 fasta_file = system.file('extdata', 'chr22.fa', package='polyester')
