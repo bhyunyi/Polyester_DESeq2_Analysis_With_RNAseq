@@ -1,0 +1,13 @@
+{
+	"n_targets": 50,
+	"n_bootstraps": 0,
+	"n_processed": 31340,
+	"n_pseudoaligned": 31337,
+	"n_unique": 10329,
+	"p_pseudoaligned": 100.0,
+	"p_unique": 33.0,
+	"kallisto_version": "0.50.1",
+	"index_version": 13,
+	"start_time": "Wed Feb 12 00:04:07 2025",
+	"call": "kallisto quant -i /scratch/by2372/Deseq2_analysis/Polyester_Test/chr22_small.idx -o ./ sample_11_1.fasta sample_11_2.fasta"
+}
