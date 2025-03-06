@@ -25,19 +25,19 @@ done
 echo "sra file: $sra"
 echo "cell_type: $cell_type"
 
-cd /scratch/by2372/Deseq2_analysis/Polyester_Test/Salmon_pseudoalign
+cd /path/Salmon_pseudoalign
 mkdir ${sra}
-cd /scratch/by2372/Deseq2_analysis/Polyester_Test/Salmon_pseudoalign/${sra}
+cd /path/Salmon_pseudoalign/${sra}
 
-cp /scratch/by2372/Deseq2_analysis/Polyester_Test/simulated_reads/${sra}_1.fasta .
-cp /scratch/by2372/Deseq2_analysis/Polyester_Test/simulated_reads/${sra}_2.fasta .
+cp /path/simulated_reads/${sra}_1.fasta .
+cp /path/simulated_reads/${sra}_2.fasta .
 
 #purge all modules and load salmon
 module purge
 module load salmon/1.10.0
 
 #run the salmon pseudoalignment
-salmon quant -i /scratch/by2372/Deseq2_analysis/Polyester_Test/Salmon_index -l A -1 ${sra}_1.fasta -2 ${sra}_2.fasta -p 4 --validateMappings -o quants
+salmon quant -i /path/Salmon_index -l A -1 ${sra}_1.fasta -2 ${sra}_2.fasta -p 4 --validateMappings -o quants
 
 #purging modules cuz otherwise awk fails due to salmon
 module purge
