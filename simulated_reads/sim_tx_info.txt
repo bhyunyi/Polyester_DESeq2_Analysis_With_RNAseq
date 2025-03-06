@@ -1,0 +1,51 @@
+transcriptid	foldchange	DEstatus
+gi|424037187|ref|NR_073460.1| Homo sapiens ribosome biogenesis protein BMS1 homolog pseudogene (LOC101101776), non-coding RNA	1	FALSE
+gi|424037186|ref|NR_073459.1| Homo sapiens long intergenic non-protein coding RNA 516 (LINC00516), non-coding RNA	1	FALSE
+gi|209977002|ref|NM_001136213.1| Homo sapiens POTE ankyrin domain family, member H (POTEH), mRNA	1	FALSE
+gi|52546690|ref|NM_001005239.1| Homo sapiens olfactory receptor, family 11, subfamily H, member 1 (OR11H1), mRNA	1	FALSE
+gi|51093856|ref|NM_014406.4| Homo sapiens chaperonin containing TCP1, subunit 8 (theta)-like 2 (CCT8L2), mRNA	1	FALSE
+gi|40445391|ref|NR_001591.1| Homo sapiens transmembrane phosphatase with tensin homology pseudogene 1 (TPTEP1), non-coding RNA	1	FALSE
+gi|338970360|ref|NR_040115.1| Homo sapiens ANKRD62P1-PARP4P3 readthrough, transcribed pseudogene (ANKRD62P1-PARP4P3), non-coding RNA	1	FALSE
+gi|103471990|ref|NM_175878.3| Homo sapiens XK, Kell blood group complex subunit-related family, member 3 (XKR3), mRNA	1	FALSE
+gi|151301122|ref|NR_003607.1| Homo sapiens heat shock transcription factor, Y-linked 1 pseudogene 1 (HSFY1P1), non-coding RNA	1	FALSE
+gi|83716020|ref|NM_001037814.1| Homo sapiens GRB2-associated binding protein family, member 4 (GAB4), mRNA	1	FALSE
+gi|168229201|ref|NR_015352.1| Homo sapiens cat eye syndrome chromosome region, candidate 7 (non-protein coding) (CECR7), non-coding RNA	1	FALSE
+gi|411147377|ref|NM_014339.6| Homo sapiens interleukin 17 receptor A (IL17RA), mRNA	1	FALSE
+gi|251823729|ref|NM_001163079.1| Homo sapiens cat eye syndrome chromosome region, candidate 6 (CECR6), transcript variant 2, mRNA	1	FALSE
+gi|251823728|ref|NM_031890.3| Homo sapiens cat eye syndrome chromosome region, candidate 6 (CECR6), transcript variant 1, mRNA	1	FALSE
+gi|51093854|ref|NM_017829.5| Homo sapiens cat eye syndrome chromosome region, candidate 5 (CECR5), transcript variant 1, mRNA	1	FALSE
+gi|51093855|ref|NM_033070.2| Homo sapiens cat eye syndrome chromosome region, candidate 5 (CECR5), transcript variant 2, mRNA	1	FALSE
+gi|213512664|ref|NR_024483.1| Homo sapiens CECR5 antisense RNA 1 (CECR5-AS1), transcript variant 1, non-coding RNA	1	FALSE
+gi|213512645|ref|NR_024482.1| Homo sapiens CECR5 antisense RNA 1 (CECR5-AS1), transcript variant 2, non-coding RNA	1	FALSE
+gi|29029551|ref|NM_177405.1| Homo sapiens cat eye syndrome chromosome region, candidate 1 (CECR1), transcript variant 2, mRNA	1	FALSE
+gi|29029549|ref|NM_017424.2| Homo sapiens cat eye syndrome chromosome region, candidate 1 (CECR1), transcript variant 1, mRNA	1	FALSE
+gi|345525396|ref|NR_038398.2| Homo sapiens cat eye syndrome chromosome region, candidate 3 (non-protein coding) (CECR3), non-coding RNA	1	FALSE
+gi|270132321|ref|NM_031413.3| Homo sapiens cat eye syndrome chromosome region, candidate 2 (CECR2), mRNA	1	FALSE
+gi|13899341|ref|NM_031481.1| Homo sapiens solute carrier family 25 (glutamate carrier), member 18 (SLC25A18), mRNA	1	FALSE
+gi|87159815|ref|NM_001039366.1| Homo sapiens ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E1 (ATP6V1E1), transcript variant 2, mRNA	1	FALSE
+gi|87159817|ref|NM_001039367.1| Homo sapiens ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E1 (ATP6V1E1), transcript variant 3, mRNA	1	FALSE
+gi|87159814|ref|NM_001696.3| Homo sapiens ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E1 (ATP6V1E1), transcript variant 1, mRNA	1	FALSE
+gi|398707252|ref|NM_015367.3| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 1, mRNA	1	FALSE
+gi|398775379|ref|NM_001270731.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 7, mRNA	1	FALSE
+gi|398775908|ref|NM_001270734.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 10, mRNA	1	FALSE
+gi|398775088|ref|NM_001270729.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 5, mRNA	1	FALSE
+gi|398775598|ref|NM_001270732.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 8, mRNA	1	FALSE
+gi|398777064|ref|NM_001270735.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 11, mRNA	1	FALSE
+gi|398774965|ref|NM_001270728.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 4, mRNA	1	FALSE
+gi|398774578|ref|NM_001270726.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 2, mRNA	1	FALSE
+gi|398774790|ref|NM_001270727.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 3, mRNA	1	FALSE
+gi|398775209|ref|NM_001270730.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 6, mRNA	1	FALSE
+gi|398776358|ref|NR_073068.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 12, non-coding RNA	1	FALSE
+gi|398776655|ref|NR_073069.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 13, non-coding RNA	1	FALSE
+gi|398774358|ref|NM_001270733.1| Homo sapiens BCL2-like 13 (apoptosis facilitator) (BCL2L13), transcript variant 9, mRNA	1	FALSE
+gi|347300409|ref|NM_001244567.1| Homo sapiens BH3 interacting domain death agonist (BID), transcript variant 4, mRNA	1	FALSE
+gi|347300417|ref|NM_001244570.1| Homo sapiens BH3 interacting domain death agonist (BID), transcript variant 6, mRNA	1	FALSE
+gi|347300412|ref|NM_197967.2| Homo sapiens BH3 interacting domain death agonist (BID), transcript variant 3, mRNA	1	FALSE
+gi|347300415|ref|NM_001244569.1| Homo sapiens BH3 interacting domain death agonist (BID), transcript variant 5, mRNA	1	FALSE
+gi|347300411|ref|NM_001196.3| Homo sapiens BH3 interacting domain death agonist (BID), transcript variant 2, mRNA	1	FALSE
+gi|347300422|ref|NM_001244572.1| Homo sapiens BH3 interacting domain death agonist (BID), transcript variant 7, mRNA	1	FALSE
+gi|347300421|ref|NM_197966.2| Homo sapiens BH3 interacting domain death agonist (BID), transcript variant 1, mRNA	1	FALSE
+gi|301171814|ref|NR_036168.1| Homo sapiens microRNA 3198-1 (MIR3198-1), microRNA	1	FALSE
+gi|209862788|ref|NM_015241.2| Homo sapiens microtubule associated monooxygenase, calponin and LIM domain containing 3 (MICAL3), transcript variant 1, mRNA	1	FALSE
+gi|170172517|ref|NM_001122731.1| Homo sapiens microtubule associated monooxygenase, calponin and LIM domain containing 3 (MICAL3), transcript variant 3, mRNA	1	FALSE
+gi|209862792|ref|NM_001136004.1| Homo sapiens microtubule associated monooxygenase, calponin and LIM domain containing 3 (MICAL3), transcript variant 2, mRNA	1	FALSE
