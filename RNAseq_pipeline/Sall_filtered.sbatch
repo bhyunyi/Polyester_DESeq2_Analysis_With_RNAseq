@@ -8,7 +8,7 @@
 #SBATCH --output=slurm_%j.out
 
 #removing all fastq files from pseudoalign folder
-for file in /scratch/by2372/Deseq2_analysis/Polyester_Test/Salmon_pseudoalign/*RR*
+for file in /path/Salmon_pseudoalign/*RR*
 do
 rm ${file}/*.fastq
 done
@@ -18,7 +18,7 @@ module purge
 module load python/intel/3.8.6
 
 #set pwd to directory containing all SRA directories
-cd /scratch/by2372/Deseq2_analysis/Polyester_Test/Salmon_pseudoalign
+cd /path/Salmon_pseudoalign
 
 
 python << EOF
