@@ -25,19 +25,19 @@ done
 echo "sra file: $sra"
 echo "cell_type: $cell_type"
 
-cd /scratch/by2372/Deseq2_analysis/Polyester_Test/Kallisto_pseudoalign
+cd /path/Kallisto_pseudoalign
 mkdir ${sra}
-cd /scratch/by2372/Deseq2_analysis/Polyester_Test/Kallisto_pseudoalign/${sra}
+cd /path/Kallisto_pseudoalign/${sra}
 
-cp /scratch/by2372/Deseq2_analysis/Polyester_Test/simulated_reads/${sra}_1.fasta .
-cp /scratch/by2372/Deseq2_analysis/Polyester_Test/simulated_reads/${sra}_2.fasta .
+cp /path/simulated_reads/${sra}_1.fasta .
+cp /path/simulated_reads/${sra}_2.fasta .
 
 #purge all modules and load kallisto
 module purge
 module load kallisto/0.50.1
 
 #run the kallisto pseudoalignment
-kallisto quant -i /scratch/by2372/Deseq2_analysis/Polyester_Test/chr22_small.idx -o ./ "$sra"_1.fasta "$sra"_2.fasta
+kallisto quant -i /path/Chr22/chr22_small.idx -o ./ "$sra"_1.fasta "$sra"_2.fasta
 
 
 # Filter the abundance file
