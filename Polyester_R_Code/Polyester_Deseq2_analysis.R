@@ -1,6 +1,6 @@
 # install DESeq2 package if package has not already been installed
 if (!requireNamespace("DESeq2", quietly = TRUE))
-  install.packages("DESeq2", lib = "/scratch/by2372/R/libraries")
+  install.packages("DESeq2", lib = "/path/R/libraries")
 
 # load libaries
 library(DESeq2)
@@ -69,15 +69,15 @@ generate_count_data = function(raw_data){
   
 }
 
-load("/scratch/by2372/Deseq2_analysis/Polyester_Test/simulated_reads/sim_counts_matrix.rda")
+load("/path/simulated_reads/sim_counts_matrix.rda")
 
 # set working directory and import raw transcription factor file
-setwd("/scratch/by2372/Deseq2_analysis/Polyester_Test/Kallisto_pseudoalign/")
+setwd("/path/Kallisto_pseudoalign/")
 Kal_raw = read.csv("Kall_filtered.csv", header = TRUE, sep = ',')
 Kal_raw$external_gene_name = Kal_raw$target_id
 
 # set working directory and import raw transcription factor file
-setwd("/scratch/by2372/Deseq2_analysis/Polyester_Test/Salmon_pseudoalign/")
+setwd("/path/Salmon_pseudoalign/")
 Sal_raw = read.csv("Sall_filtered.csv", header = TRUE, sep = ',')
 Sal_raw$external_gene_name = Sal_raw$Name
 
@@ -123,6 +123,7 @@ Sal_col_data = data.frame(Sample = colnames(final_Sal_count),
 
 dd_countdata_K = as.matrix(round(final_Kal_count))  
 
+# perform DESeq2 analysis and get the results
 dds_K = DESeqDataSetFromMatrix(countData=dd_countdata_K, colData=Kal_col_data, design=~Condition)
 dds_K = DESeq(dds_K)
 results_dds_K = results(dds_K)
@@ -148,14 +149,15 @@ volcano_plot_K = ggplot(results_dds_K, aes(x = log2FoldChange, y = neglog_padj, 
   labs(title = paste0("Volcano Plot for Kallisto Estmates vs. Actual Abundances"), x = "Log2 Fold change", y = "-log(adjusted p-value)", 
        color = "Significance of Differential Expression")
 
-setwd("/scratch/by2372/Deseq2_analysis/Plots/")
+# Save the volcano plot to a directory
+setwd("/path/Volcano_Plots/")
 ggsave("Polyester_Kallisto_volcanoplot.png", plot = volcano_plot_K, width = 10, height = 6, dpi = 300)
 
 
 ### DESeq2 Analysis Salmon ###
 
 dd_countdata_S = as.matrix(round(final_Sal_count))  
-
+# perform DESeq2 analysis and get the results
 dds_S = DESeqDataSetFromMatrix(countData=dd_countdata_S, colData=Sal_col_data, design=~Condition)
 dds_S = DESeq(dds_S)
 results_dds_S = results(dds_S)
@@ -180,7 +182,7 @@ volcano_plot_S = ggplot(results_dds_S, aes(x = log2FoldChange, y = neglog_padj, 
   xlim(-10,10)+
   labs(title = paste0("Volcano Plot for Salmon Estmates vs. Actual Abundances"), x = "Log2 Fold change", y = "-log(adjusted p-value)", 
        color = "Significance of Differential Expression")
-
+# Save the volcano plot to a directory
 setwd("/scratch/by2372/Deseq2_analysis/Plots/")
 ggsave("Polyester_Salmon_volcanoplot.png", plot = volcano_plot_S, width = 10, height = 6, dpi = 300)
 
