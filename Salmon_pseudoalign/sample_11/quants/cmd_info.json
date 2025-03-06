@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.0",
+    "index": "/scratch/by2372/Deseq2_analysis/Polyester_Test/Salmon_index",
+    "libType": "A",
+    "mates1": "sample_11_1.fasta",
+    "mates2": "sample_11_2.fasta",
+    "threads": "4",
+    "validateMappings": [],
+    "output": "quants",
+    "auxDir": "aux_info"
+}

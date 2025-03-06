@@ -1,0 +1,22 @@
+{
+    "read_files": "[ sample_11_1.fasta, sample_11_2.fasta]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 31308,
+    "num_assigned_fragments": 31308,
+    "num_frags_with_concordant_consistent_mappings": 31285,
+    "num_frags_with_inconsistent_or_orphan_mappings": 23,
+    "strand_mapping_bias": 0.4983538436950615,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 15591,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 15694,
+    "SF": 12,
+    "SR": 11,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}
